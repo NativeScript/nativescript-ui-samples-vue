@@ -5,6 +5,7 @@ import ItemAnimations from './ItemAnimations';
 import ItemLoading from './ItemLoading';
 import ItemReorder from './ItemReorder';
 import ItemSelection from './ItemSelection';
+import LoadOnDemand from './LoadOnDemand';
 import MultipleTemplates from './MultipleTemplates';
 import Observable from './Observable';
 import PullToRefresh from './PullToRefresh';
@@ -12,6 +13,7 @@ import ScrollTo from './ScrollTo';
 import StaggeredLayout from './StaggeredLayout';
 import SwipeActions from './SwipeActions';
 import Group from './Group';
+import GroupScrollTo from './GroupScrollTo';
 import TemplateGroup from './TemplateGroup';
 
 export const getExamples = () => {
@@ -25,8 +27,10 @@ export const getExamples = () => {
     ItemLoading,
     ItemReorder,
     ItemSelection,
+    LoadOnDemand,
     MultipleTemplates,
     Group,
+    GroupScrollTo,
     TemplateGroup,
     ScrollTo,
     SwipeActions,
