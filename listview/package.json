@@ -18,7 +18,7 @@
     "nativescript-ui-listview": "*",
     "nativescript-vue": "~2.2.0",
     "tns-core-modules": "^5.0.0",
-    "tns-platform-declarations": "^5.4.0",
+    "tns-platform-declarations": "^5.4.1",
     "tslib": "^1.9.3",
     "vue": "^2.5.17"
   },
