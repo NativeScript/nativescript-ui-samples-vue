@@ -18,7 +18,7 @@ export default {
           <GridLayout rows="auto, auto" :backgroundColor="item.id % 2 != 0 ? 'lightgreen' : 'lightblue'">
             <Label row="0" :text="item.name"></Label>
             <Label row="1" :text="item.description"></Label>
-          <GridLayout>
+          </GridLayout>
         </v-template>
       </RadListView>
     </GridLayout>
